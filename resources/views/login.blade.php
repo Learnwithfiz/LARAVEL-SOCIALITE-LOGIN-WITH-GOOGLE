@@ -47,7 +47,11 @@
                                 Login with Google
                             </a>
                         </div>
-
+                         <div class="text-center mb-3">
+                            <a href="{{url('/auth/redirect/github')}}" class="btn btn-warning w-100">
+                                Login with Github
+                            </a>
+                        </div>
                         <div class="text-center">
                             Already have an account?
                             <a href="{{url('/')}}">Register</a>

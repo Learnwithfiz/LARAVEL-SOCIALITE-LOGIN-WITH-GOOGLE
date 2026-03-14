@@ -48,9 +48,14 @@
                             </button>
                         </div>
 
-                        <div class="text-center mb-3">
-                            <a href="#" class="btn btn-danger w-100">
+                         <div class="text-center mb-3">
+                            <a href="{{url('/auth/redirect')}}" class="btn btn-danger w-100">
                                 Login with Google
+                            </a>
+                        </div>
+                         <div class="text-center mb-3">
+                            <a href="{{url('/auth/redirect/github')}}" class="btn btn-warning w-100">
+                                Login with Github
                             </a>
                         </div>
 

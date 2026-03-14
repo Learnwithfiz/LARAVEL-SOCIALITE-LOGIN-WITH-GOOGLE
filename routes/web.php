@@ -14,3 +14,6 @@ Route::get('/dashboard',[UserController::class,'OnDashboard'])->middleware(Admin
 
 Route::get('/auth/redirect',[LoginWithGoogle::class,'OnRedirect']);
 Route::get('/auth/google/call-back',[LoginWithGoogle::class,'OnCallBack']);
+
+Route::get('/auth/redirect/github',[LoginWithGoogle::class,'OnRedirectGithub']);
+Route::get('/auth/github/callback',[LoginWithGoogle::class,'OnCallBackGithub']);
